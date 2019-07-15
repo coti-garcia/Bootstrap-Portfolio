@@ -1,3 +1,35 @@
 body{
-    
+    font-family: 'Raleway', sans-serif;
+}
+h1, h1, h3{
+    font-family: 'DM Serif Display', serif;
+}
+a.navbar-brand{
+    font-family: 'DM Serif Display', serif;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.intro{
+    padding: 30px 0;
+}
+#portfolio{
+    margin-bottom: 70px
+}
+.portfolio-grid .card{
+    border: none;
+    border-radius: 0;
+}
+.portfolio-grid .card img{
+    border: none;
+    border-radius: 0;
+}
+footer{
+    padding: 30px 0;
+    color: #fff;
+    font-size: 12px;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,1);
+    border: none;
 }
