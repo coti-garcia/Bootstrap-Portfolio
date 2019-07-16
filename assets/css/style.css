@@ -1,8 +1,11 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-h1, h1, h3{
+h1, h1, h2{
     font-family: 'DM Serif Display', serif;
+}
+.bg-dark{
+    background-color: black !important;
 }
 a.navbar-brand{
     font-family: 'DM Serif Display', serif;
@@ -24,6 +27,26 @@ a.navbar-brand{
     border: none;
     border-radius: 0;
 }
+.skills{
+    margin-bottom: 60px;
+}
+.skills h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.skills .progress{
+    margin-bottom: 17px;
+    border-radius: 0;
+}
+.skills .progress-bar{
+    background-color: black;
+}
+.bottom-about{
+    margin-top: 50px;
+}
+.bottom-about h2{
+    margin-bottom: 20px;
+}
 footer{
     padding: 30px 0;
     color: #fff;
@@ -32,4 +55,9 @@ footer{
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,1);
     border: none;
+}
+.input-group-text{
+    border-radius: 0;
+    background: black;
+    color: #fff;
 }
