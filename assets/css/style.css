@@ -68,6 +68,10 @@ form.contact-form {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.contact-form textarea{
+    border: 1px solid #ced4da;
+    width: calc(100% - 39px);
+}
 form.contact-form .btn{
     margin-top: 20px;
 }
@@ -76,4 +80,7 @@ form.contact-form .btn{
     text-transform: uppercase;
     padding-left: 30px;
     padding-right: 30px;
+}
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child){
+    border-radius: 0;
 }
