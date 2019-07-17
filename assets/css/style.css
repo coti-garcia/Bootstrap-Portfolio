@@ -84,3 +84,21 @@ form.contact-form .btn{
 .input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child){
     border-radius: 0;
 }
+.container.contact {
+    min-height: calc(100vh - 180px);
+}
+
+
+@media (min-width: 768px) { 
+
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
+}
