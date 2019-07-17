@@ -45,7 +45,7 @@ nav.navbar{
     background-color: black;
 }
 .bottom-about{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .bottom-about h2{
     margin-bottom: 20px;
@@ -87,10 +87,20 @@ form.contact-form .btn{
 .container.contact {
     min-height: calc(100vh - 180px);
 }
-
+.profile img{
+    margin-bottom: 30px;
+}
+.resume{
+    margin-bottom: 30px;
+}
 
 @media (min-width: 768px) { 
-
+    .profile img{
+        margin-bottom: 0px;
+    }
+    .bottom-about{
+        margin-top: 50px;
+    }
 }
 
 
