@@ -98,6 +98,7 @@ form.contact-form .btn{
 .profile img {
     max-width: 250px;
     border-radius: 50%;
+    width: 100%;
 }
 .social-links a{
     display: block;
