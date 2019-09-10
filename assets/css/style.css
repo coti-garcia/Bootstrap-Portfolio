@@ -137,7 +137,79 @@ form.contact-form .btn{
     text-transform: uppercase;
     font-weight: 600;
 }
+.resume h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
 
+.resume a{
+    color: #000;
+    font-weight: 400;
+}
+
+.resume p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.resume .item{
+    margin-bottom: 30px;
+}
+
+.resume .item.last{
+    margin-bottom: 70px;
+}
+
+.resume .date{
+    font-style: italic;
+}
+
+a.btn-outline {
+    border: solid thin #000;
+    padding: 15px 30px;
+}
+
+a.btn-outline:hover{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.box{
+    border: solid thin #000;
+    text-align: center;
+    padding: 30px 30px 50px;
+    min-height: 170px;
+    margin-bottom: 70px;
+    box-sizing: content-box;    
+}
+
+.box h6{
+    text-transform: uppercase;  
+    font-weight: 700;
+}
+
+.box p{
+    margin-bottom: 0;
+}
+
+.box a{
+    color: #000;
+    text-decoration: none;
+}
+.box a:hover{
+    color:  #666;
+}
+.contact{
+    margin-top: 50px;
+}
+
+.contact img{
+    max-width: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 @media (min-width: 768px) { 
     .profile img{
         margin-bottom: 0px;
