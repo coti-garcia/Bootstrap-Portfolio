@@ -210,6 +210,10 @@ a.btn-outline:hover{
     margin-bottom: 30px;
     margin-top: 10px;
 }
+
+.skills{
+    margin-top: 40px;
+}
 @media (min-width: 768px) { 
     .profile img{
         margin-bottom: 0px;
@@ -222,6 +226,9 @@ a.btn-outline:hover{
         -moz-column-count: 2;
         column-count: 2;
         margin: 0px;
+    }
+    .skills{
+        margin-top: 0px;
     }
 }
 
