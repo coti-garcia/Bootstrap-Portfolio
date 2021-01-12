@@ -22,11 +22,9 @@ a.navbar-brand{
 nav.navbar{
     margin-bottom: 30px;
 }
-#portfolio{
-    margin-bottom: 70px
-}
+
 .portfolio-grid .card{
-    border: solid thin #cccccc;
+    border: none;
     border-radius: 0;
     margin: 0px 0px 0px;
 }
@@ -36,11 +34,9 @@ nav.navbar{
 .card-img-overlay img{
     width: 50px;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 }
-.project-description {
-    margin: 20px 15px 60px;
-}
+
 .project-description h5{
     font-family: 'DM Serif Display', serif;
 }
@@ -55,8 +51,9 @@ nav.navbar{
     font-size: 13px;
 }
 .project-description a{
-    color: #000000;
+    color: #FFF;
 }
+
 .project-description a:hover{
     color: #333333;
 }
@@ -167,10 +164,6 @@ form.contact-form .btn{
 }
 .portfolio-grid .card-img-overlay a{
     color: #fff;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    display: flex;
 
 }.portfolio-grid .card-img-overlay a:hover{
     text-decoration: none;
@@ -184,11 +177,7 @@ form.contact-form .btn{
     font-weight: 300;
     padding: 0;
 }
-.card-img-overlay:hover{
-    background: rgba(0,0,0,0.7);
-    opacity: 1;
-    transition: all 0.3s;
-}
+
 .portfolio-grid .card-img-overlay p strong{
     font-weight: 600;
 }
@@ -289,7 +278,39 @@ a.btn-outline:hover{
     display: none;
 }
 
+.bg-black{
+    background: black;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right:0;
+}
+.project-description {
+    margin: 0 0 20px 0;
+    /* position: absolute;
+    left:0;
+    right: 0;
+    bottom:0; */
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    color: #FFF;
+    text-align: center;
+}
 @media (min-width: 768px) { 
+    .grid-item:hover .project-description{
+        display: none;
+    }
+    .project-description {
+        margin: 0;
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom:0;
+        background: rgba(0,0,0,0.7);
+        color: #FFF;
+    }
+
     .profile img{
         margin-bottom: 0px;
     }
@@ -314,11 +335,16 @@ a.btn-outline:hover{
         width: 50%; 
     }
     .portfolio-grid .card{
-        margin: 0px 25px 0px;
+        margin: 0px 0px 0px;
     }
     .project-description {
-        margin: 15px 25px 50px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
     }
+    
     h1 small{
         display: inline;
     }
@@ -328,6 +354,27 @@ a.btn-outline:hover{
     }
     .site-footer span{
         display: inline-block;
+    }
+    #portfolio{
+        margin-bottom: 0px;
+        background: #000;
+    }
+    .grid-item:hover .card-img-overlay{
+        background: rgba(0,0,0,0.9);
+        opacity: 1;
+        transition: all 0.3s;
+        height: auto;
+        bottom: auto;
+        left: auto;
+        top:20px;
+    }
+    .card-img-overlay a{
+        display: flex;
+        padding: 20px;
+        align-items: center;
+    }
+    .card-img-overlay img{
+       margin-right: 15px;
     }
 }
 
